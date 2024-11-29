@@ -22,11 +22,14 @@
     <hr>
 
     <h2>Formulário de inscrição:</h2>
-    <form action="../back-end/processa_form.php" method="get">
+    <form action="../back-end/processa_form.php" method="$_POST">
         Nome:
         <input type="text" name="nome" id="" value="Fulano">
         Idade:
         <input type="number" name="idade"id="" value="18">
+
+        Senha:
+        <input type="password" name="senha" id="">
         
         <button type="submit">Enviar</button>
     </form>
