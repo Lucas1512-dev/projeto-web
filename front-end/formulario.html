@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formmulário de Cadastro</title>
+    <link rel="stylsheet" href="./assets/css/style.css">
+</head>
+<body>
+    <h1>
+        <img src="./assets/img/udesc.jpg" alt="Logotipo da Udesc" srcset="" width="200px">
+        Sistemas de Informação 
+        <br>
+        CESMO
+    </h1>
+
+    <hr>
+    <h4>
+        Clique <a href="../index.html">aqui</a> para voltar à página inicial (<i>Home Page</i>)
+    </h4> 
+
+    <hr>
+
+    <h2>Formulário de inscrição:</h2>
+    <form action="../back-end/processa_form.php" method="get">
+        Nome:
+        <input type="text" name="nome" id="" value="Fulano">
+        Idade:
+        <input type="number" name="idade"id="" value="18">
+        
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+</html>
